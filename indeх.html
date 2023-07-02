@@ -5,49 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карточки</title>
+    <title>hw</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 
 <body>
     <header></header>
     <main>
-        <div class="card">
-            <link rel="stylesheet" href="css/styles.css">
-            <img src="./images/enot.jpg" width="400" alt="enot">
-            <h1>Еноты</h1>
-            <p> Род хищных млекопитающих семейства енотовых.
-                Представители рода — обитатели Америки. На территории Евразии, интродуцирован единственный вид —
-                енот-полоскун.</p>
-            <h2>Общие особенности:</h2>
-            Они всеядны и имеют репутацию умных и озорных. Их интеллект и ловкость позволяют им выживать в самых
-            разных средах, и они являются одними из немногих животных среднего и крупного размера, которые расширили
-            свой ареал с тех пор, как началось вторжение человека (другой пример - койот).
-        </div>
-        <div class="card">
-            <link rel="stylesheet" href="css/styles.css">
-            <img src="./images/cat.jpg" width="400" alt="cat">
-            <h1>Коты</h1>
-            <p>
-                С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда хищных.
-                Одни исследователи рассматривают домашнюю кошку как подвид дикой кошки, другие — как отдельный
-                биологический вид.
-            </p>
-        </div>
-        <div class="card">
-            <link rel="stylesheet" href="css/styles.css">
-            <img src="./images/dog.jpg" width="400" alt="dog">
-            <h1>Ротвейлер</h1>
-            <p>
-                Немецкая порода собак, относящаяся к группе молоссов, сформированная в районе города Ротвайль и на
-                берегах реки Неккар.
-                Собаки этого типа являются одними из самых древних в Германии, их происхождение уходит к собакам Римской
-                Империи.
-            </p>
-        </div>
+        <h1>Регистрация:</h1>
+        <form action="https://fom.in.ua/echo" method="post">
+            <label>
+                Email:
+                <input type="email" placeholder="Введите ваш Email">
+            </label>
+
+            <br>
+
+            <label>
+                Пароль:
+                <input type="password" placeholder="Введите ваш Пароль">
+            </label>
+
+            <br>
+            <button type="submit">
+                Зарегестрироваться
+            </button>
+            <br>
+            <br>
+            Авторизоваться:
+            <label>
+                <br>
+                Email:
+                <input type="email" placeholder="Введите ваш Email">
+            </label>
+
+            <br>
+
+            <label>
+                Пароль:
+                <input type="password" placeholder="Введите ваш Пароль">
+            </label>
+
+            <br>
+            <button type="submit">
+                Авторизоваться
+            </button>
+            <label>
+                <br>
+                <br>
+                Тип кузова:
+                <input type="text" placeholder="Тип кузова">
+            </label>
+            <label>
+                <br>
+                Марка авто:
+                <input type="text" placeholder="Марка авто">
+            </label>
+            <label>
+                <br>
+                Країна виробника:
+                <input type="text" placeholder="Країна виробника">
+            </label>
+            <label>
+                <br>
+                Цена:
+                <input type="text" placeholder="От"></label>
+            <label>
+                <input type="text" placeholder="До"></label>
+            <label>
+                <br>
+                Рік випуску:
+                <input type="number" min="1900" max="2023">
+            </label>
+            <label>
+                <br>
+                Стан:
+                <input type="text" placeholder="Опишить стан машини">
+            </label>
+            <label>
+                <br>
+                Тип палива:
+                <input type="text" placeholder="Тип палива">
+            </label>
+            <label>
+                <br>
+                Тип коробки передач:
+                <input type="text" placeholder="Тип коробки передач">
+            </label>
+            <label>
+                <br>
+                Цвет:
+                <input type="color">
+            </label>
+            <br>
+            Комфорт:
+            <select>
+                <option value="1">Комфорт</option>
+                <option value="2">Люкс</option>
+                <option value="3">Кожаный салон</option>
+            </select>
+        </form>
     </main>
 </body>
 

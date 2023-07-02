@@ -1,16 +1,6 @@
-h1 {
-  color: cornflowerblue;
-}
-h2 {
-  color: blueviolet;
-}
-h3 {
-  color: deeppink;
-}
 .card {
-  border: 1px solid;
-  padding: 30px;
-  margin: 50px auto;
-  max-width: 500px;
   font-family: "Roboto", sans-serif;
+  width: 150px;
+  border: 1px solid;
+  margin: 50px;
 }
