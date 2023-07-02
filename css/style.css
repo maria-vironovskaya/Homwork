@@ -1,3 +1,22 @@
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: cursive;
+}
+
+body {
+  min-height: 100vh;
+}
+
 .container {
   width: 100%;
   max-width: 900px;
@@ -5,11 +24,33 @@
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  background-image: linear-gradient(
+    45deg,
+    darkgreen,
+    mediumturquoise,
+    seagreen
+  );
 }
 
 .text-center {
   text-align: center;
 }
+
+.main-title {
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.secondary-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .wrapper {
   border: 1px dashed rgba(255, 50, 0, 0.9);
+}
+
+p {
+  text-align: center;
 }
