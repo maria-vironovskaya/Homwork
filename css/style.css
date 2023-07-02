@@ -20,3 +20,6 @@ td {
   padding-left: 0;
   float: left;
 }
+th {
+  background-color: yellow;
+}
