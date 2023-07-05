@@ -7,6 +7,7 @@
 
 img {
   max-width: 100%;
+  width: 20px;
 }
 
 html {
@@ -53,4 +54,14 @@ body {
 
 p {
   text-align: center;
+}
+
+.block {
+  aspect-ratio: 16/9;
+  background-image: url("../images/color_left-top.png"),
+    url("../images/color_right-top.png"), url("../images/color_left-bottom.png"),
+    url("../images/color_right-bottom.png");
+  background-size: 150px, 150px, 150px;
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
 }
