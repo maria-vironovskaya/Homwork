@@ -63,10 +63,8 @@ body {
 
 .cards-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
   color: #ffffff;
+  justify-content: space-between;
 }
 
 .h3 {
@@ -151,12 +149,12 @@ footer {
 .card > img {
   max-width: 50px;
   min-height: 50px;
+  gap: 20px;
 }
 
-.card > .span {
+.span {
   display: flex;
   font-size: 21px;
-  align-items: stretch;
 }
 
 .container {
@@ -185,4 +183,9 @@ footer {
   margin-right: auto;
   padding-bottom: 47px;
   padding-top: 50px;
+}
+
+.word {
+  padding: 0px;
+  margin: 0px;
 }
