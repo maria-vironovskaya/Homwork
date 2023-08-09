@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Limelight-Regular";
+  src: local("Limelight-Regular"),
+    url("./Limelight-Regular.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Courgette-Regular";
+  src: local("Courgette-Regular"),
+    url("./Courgette-Regular.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"), url("./Lato-Regular.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
