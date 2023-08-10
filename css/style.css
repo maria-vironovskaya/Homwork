@@ -36,7 +36,7 @@ a:hover {
   color: #d52047;
 }
 
-.contairner {
+.section-content {
   background-color: #d52047;
   width: 100%;
   height: 486px;
@@ -58,9 +58,10 @@ a:hover {
 .header > .header-text > .span {
   color: #000;
   margin: 0px;
+  font-family: "Courgette", cursive;
 }
 
-.contairner > .text {
+.text {
   font-size: 48px;
   text-align: center;
   padding-left: 351px;
@@ -87,20 +88,23 @@ a:hover {
   border-radius: 8px 0px 0px 8px;
   padding-top: 7px;
   padding-left: 24px;
-  width: 555px;
-  height: 348px;
+  display: flex;
   margin: 0px;
+  max-height: 348px;
 }
 
-.block > .h2 {
+.h2 {
   display: flex;
   font-size: 32px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   margin: 0px;
 }
 
-.block > .about-text {
+.about-text {
   font-size: 24px;
   padding-bottom: 24px;
+  max-width: 507px;
 }
 
 .block > img {
@@ -109,7 +113,6 @@ a:hover {
   max-height: 348px;
   border-radius: 0px 8px 8px 0px;
   margin-top: 0;
-  padding-left: 10rem;
 }
 
 .content {
