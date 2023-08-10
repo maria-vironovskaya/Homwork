@@ -44,7 +44,6 @@ a:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 46px;
 }
 
 body {
@@ -53,6 +52,7 @@ body {
 
 .card {
   color: #ffffff;
+  display: flex;
 }
 
 .content {
@@ -74,13 +74,13 @@ body {
 header {
   padding-top: 79px;
   font-size: 16px;
-  padding-bottom: 160px;
 }
 
 .h1 {
   margin-top: 160px;
   font-size: 48px;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
+  font-weight: 700;
 }
 .text {
   font-size: 16px;
@@ -106,7 +106,7 @@ header {
 .content > .content-text {
   color: white;
   padding-top: 50px;
-  padding-bottom: 47px;
+  margin-bottom: 47px;
   padding-right: 406px;
   text-align: end;
   font-size: 21px;
@@ -127,7 +127,6 @@ footer {
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 141px;
-  margin-top: 54px;
 }
 
 .button-text:hover {
