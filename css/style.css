@@ -18,28 +18,29 @@ body {
   display: flex;
   align-items: center;
   padding: 24px;
-  gap: 79px;
   background-color: #f9f7e8;
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  margin: 0%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0% auto;
 }
 
-a {
+.container > a {
   color: rgb(5, 5, 5);
-  gap: 21px;
   text-decoration: none;
+  display: flex;
+  padding-right: 21px;
+  align-items: center;
 }
 
-a:hover {
+.container > a:hover {
   color: #d52047;
 }
 
 .section-content {
   background-color: #d52047;
-  width: 100%;
-  height: 486px;
+  max-width: 100%;
+  max-height: 486px;
   margin: 0px;
 }
 
@@ -47,32 +48,35 @@ a:hover {
   width: 738px;
 }
 
-.header > .header-text {
-  display: flex;
+.container > .header-text {
   color: #62bfad;
   font-size: 32px;
   margin: 0px;
   font-family: "Courgette", cursive;
 }
 
-.header > .header-text > .span {
+.container > .header-text > .span {
   color: #000;
   margin: 0px;
   font-family: "Courgette", cursive;
+  padding-right: 79px;
 }
 
 .text {
   font-size: 48px;
   text-align: center;
-  padding-left: 351px;
-  padding-right: 351px;
   padding-top: 198px;
   padding-bottom: 172px;
-  margin: 0px;
   color: white;
   font-family: "Limelight", cursive;
+  max-width: 738px;
+  text-transform: uppercase;
+  margin: 0px auto;
 }
 
+p {
+  margin-top: 0%;
+}
 .h1 {
   display: block;
   color: #d52047;
@@ -86,7 +90,6 @@ a:hover {
 .block {
   background-color: #e5e5e5;
   border-radius: 8px 0px 0px 8px;
-  padding-top: 7px;
   padding-left: 24px;
   display: flex;
   margin: 0px;
@@ -99,12 +102,13 @@ a:hover {
   padding-bottom: 24px;
   padding-top: 24px;
   margin: 0px;
+  font-weight: 700;
 }
 
 .about-text {
   font-size: 24px;
   padding-bottom: 24px;
-  max-width: 507px;
+  padding-right: 24px;
 }
 
 .block > img {
@@ -139,9 +143,9 @@ a:hover {
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 90px;
-  gap: 27px;
+  gap: 72px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -153,9 +157,9 @@ a:hover {
 }
 
 .card > img {
-  width: 274px;
-  height: 156px;
-  padding-left: 24px;
+  max-width: 274px;
+  max-height: 156px;
+  padding-left: 40px;
   padding-top: 24px;
 }
 
@@ -165,7 +169,7 @@ a:hover {
   margin: 0px;
 }
 
-.card > span {
+.card > a {
   padding-top: 24px;
   padding-left: 24px;
   padding-bottom: 24px;
@@ -202,6 +206,18 @@ footer > .part-down {
 }
 
 .container {
+  width: 100%;
   max-width: 1110px;
   margin: 0px auto;
+  position: relative;
+}
+
+.section-content > .container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+header > .container {
+  display: flex;
 }
