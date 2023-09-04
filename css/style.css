@@ -8,9 +8,11 @@ html {
   background-color: #eeeff1;
   font-family: KyivTypeSans, sans-serif;
   background-image: url(../images/wave2.png), url(../images/shadedarrow1.png), url(../images/chaotic2\ 1.png), 
-  url(../images/shape22.png);
+  url(../images/shape22.png), url(../images/Rectangle215.png), url(../images/Rectangle199.png), url(../images/Rectangleg.png), 
+  url(../images/Rectanglegf.png), url(../images/Desktop-15.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: left bottom 40%, right bottom 40%, left top 30%, right top 10%;
+  background-position: left bottom 60%, right bottom 60%, left top 20%, right top 10%, right 95% top 2.5%, left 95% top 2.5%,left 20% bottom 30%, left 20% bottom 22%,
+  left 50% bottom 7% ;
 
 }
 
@@ -24,6 +26,7 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: 0px 2px 30px 0px #0000001A;
+  margin-bottom: 320.15px;
 }
 
 header > img {
@@ -183,7 +186,6 @@ header > img {
 .menu {
   display: flex;
   gap: 10px;
-  margin-top: 320.15px;
 }
 
 
@@ -382,10 +384,6 @@ margin-left: 45px;
   margin-left: 45px;
 }
 
-.shoes {
-  text-align: right;
-}
-
 .news2 {
   max-width: 259.02px;
   margin-top: 270px;
@@ -449,4 +447,11 @@ padding-bottom: 25px;
 li {
   list-style: none;
     line-height: 25px;
+}
+
+.tb {
+margin-top: 167px;
+font-size: 24px;
+max-width: 140px;
+color: #FFFFFF;
 }
