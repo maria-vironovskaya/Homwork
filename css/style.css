@@ -269,8 +269,8 @@ img {
   padding-top: 93px;
   padding-bottom: 93px;
   border-radius: 20px;
-  margin-left: 47px;
-  margin-right: 47px;
+  margin-left: 70px;
+  margin-right: 70px;
   margin-bottom: 81px;
 }
 .part-up {
@@ -284,6 +284,8 @@ img {
 .footer .part-up .nav-group {
   width: 25%;
   list-style: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer .part-up .nav-title {
