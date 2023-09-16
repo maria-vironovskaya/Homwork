@@ -11,8 +11,8 @@ html {
     url(../images/shadedarrow1.png) no-repeat,
     url(../images/miniscribble21.png) no-repeat,
     url(../images/patch1.png) no-repeat;
-  background-position: right top 10%, left top 20%, left bottom 60%,
-    right bottom 60%, left bottom 30%, right bottom 15%;
+  background-position: right top 10%, left top 20%, left bottom 57%,
+    right bottom 57%, left bottom 25%, right bottom 19%;
 }
 
 a {
@@ -272,6 +272,7 @@ img {
   margin-left: 70px;
   margin-right: 70px;
   margin-bottom: 81px;
+  margin-top: 30px;
 }
 .part-up {
   background-color: #fff;
