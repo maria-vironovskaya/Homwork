@@ -315,14 +315,27 @@ img {
   font-size: 12px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 320px) {
+  .header .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .header .icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 60%;
+  }
   .logo > span {
     margin-right: 40px;
   }
   .cards-wrapper {
     gap: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .card.wide .wrap {
     left: 20px;
@@ -343,10 +356,9 @@ img {
     color: white;
   }
   .buttons {
-    max-width: 100px;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 150px;
   }
   html {
     background: url(../images/shape22.png) no-repeat,
@@ -377,26 +389,29 @@ img {
     border-radius: 20px;
   }
   .footer .part-up .nav-group {
-    width: 15%;
+    width: 25%;
     list-style: none;
     padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .footer .part-up .nav-title {
-    font-size: 12px;
-    line-height: 8px;
+    font-size: 18px;
+    line-height: 18px;
     margin-bottom: 25px;
   }
 
   .footer .part-up .container {
-    display: flex;
     align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding-left: 20px;
   }
 
   .nav-item {
     padding-bottom: 25px;
     list-style: none;
+    font-size: 15px;
   }
 
   .nav-list-icon {
@@ -410,5 +425,29 @@ img {
   }
   .nav-list {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    background: url(../images/Desktop-15.png) no-repeat center/cover;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    border-radius: 20px;
+    margin-bottom: 81px;
+    margin-top: 30px;
+  }
+  .header .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 22px;
+    line-height: 25px;
+    padding-right: 10px;
   }
 }
