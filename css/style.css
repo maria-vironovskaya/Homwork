@@ -55,14 +55,14 @@ html {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .cards {
     display: flex;
     gap: 20px;
   }
   .h1 {
     font-size: 24px;
-    max-width: 390px;
+    max-width: 290px;
     padding-bottom: 32px;
     color: white;
   }
@@ -79,8 +79,11 @@ html {
   .fhoto1 {
     margin-top: 50px;
     position: absolute;
+    width: 100%;
   }
   .text {
+    margin-left: 13px;
+    margin-top: 30px;
     position: absolute;
   }
 }
