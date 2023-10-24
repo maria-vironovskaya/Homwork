@@ -9,13 +9,17 @@ html {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  display: flex;
+  gap: 50px;
+  margin-left: 90px;
 }
 
-.container {
-  max-width: 1180px;
+.flex {
+  display: flex;
+}
+
+.fhoto1 {
+  margin-top: 50px;
 }
 
 .h1 {
@@ -34,52 +38,49 @@ html {
   color: #3c3c43d9;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 64px;
+.text {
+  margin-left: 23px;
+  margin-top: 30px;
 }
 
-.text {
-  margin-left: 130px;
+.fhoto1 {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
   .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .text {
-    margin-left: 10px;
-  }
-  img {
-    max-width: 100px;
-    max-height: 200px;
+    display: flex;
+    gap: 20px;
   }
   .h1 {
-    font-size: 17px;
-    max-width: 90px;
+    font-size: 24px;
+    max-width: 390px;
     padding-bottom: 32px;
+    color: white;
   }
   .h2 {
-    font-size: 15px;
+    font-size: 20px;
     padding-bottom: 8px;
+    color: white;
   }
 
   .h3 {
     font-size: 14px;
-    color: #3c3c43d9;
+    color: white;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 24px;
+  .fhoto1 {
+    margin-top: 50px;
+    position: absolute;
+  }
+  .text {
+    position: absolute;
   }
 }
