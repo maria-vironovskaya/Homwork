@@ -77,13 +77,10 @@ html {
     color: white;
   }
   .fhoto1 {
-    margin-top: 50px;
     width: 100%;
     position: relative;
   }
   .text {
-    margin-left: 13px;
-    margin-top: 30px;
     position: relative;
   }
 }
