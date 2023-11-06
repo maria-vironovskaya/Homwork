@@ -12,17 +12,26 @@ html {
   display: flex;
 }
 
+.arrows {
+  margin-left: 1000px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .fhoto1 {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .fhoto2 {
   margin-left: 20px;
+  margin-top: 10px;
+}
+
+.fhoto3 {
+  margin-top: 10px;
 }
 
 .h1 {
@@ -43,7 +52,7 @@ html {
 
 .text {
   margin-left: 23px;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 .fhoto1 {
@@ -57,6 +66,7 @@ html {
   }
   .fhoto2 {
     margin-bottom: 50px;
+    margin-top: 10px;
   }
 }
 
