@@ -13,7 +13,13 @@ html {
 }
 
 .arrows {
-  margin-left: 1000px;
+  position: absolute;
+  padding-left: 580px;
+  padding-top: 300px;
+}
+
+.arrow1 {
+  margin-right: 40px;
 }
 
 .grid {
